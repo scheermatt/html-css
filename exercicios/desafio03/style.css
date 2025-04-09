@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+    font-family: "Droid";
+    src: url(fontes/idroid.otf) format("opentype"),
+}
+:root {
+    --cor0: #ecffea;
+    --cor1: #13E600;
+    --cor2: #2CBB1F;
+    --cor3: #389130;
+    --cor4: #376633;
+    --cor5: #2d422c;
+    --cor6: #79cc76;
+    --cor7: #000000;
+}
+
+
+body {
+    background-color: var(--cor6);
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0px;
+}
+header {
+    background-image: linear-gradient(to top, var(--cor5), var(--cor1));
+    color: var(--cor0);
+    text-align: center;
+    padding: 25px 0px 0px 0px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.445);
+}
+.head {
+    text-align: center;
+    text-indent: 0px;
+}
+p {text-indent: 30px;
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    margin: 20px 20px 20px 20px;
+}
+nav {
+    padding: 2px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+nav > a {
+    text-decoration: none;
+    font-weight: normal;
+    margin-top: 10px;
+    color: var(--cor1);
+    padding: 5px;
+    border: 2px solid var(--cor1);
+    border-radius: 5px;
+    background-color: var(--cor7);
+    margin: 5px;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    justify-content: left;
+}
+nav > a:hover {
+    background-color: var(--cor1);
+    color: var(--cor7);
+    border: 2px solid var(--cor7);
+}
+.list {display: block;
+font-style: bold;
+font-size: 1em;
+column-count: 2;
+margin-left: 30px;
+list-style-type: '\2714';
+
+} 
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--cor0);
+    box-shadow: 2px 7px 2px rgb(0 0 0 / 25%);
+}
+footer {
+    background-color: #333;
+    color: var(--cor0);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.aprender {
+    background-color: var(--cor1);
+    padding: 0px 0px 20px 0px;
+    border-radius: 10px;
+    box-shadow: 4px 2px 5px rgb(0 0 0 / 20%);
+}
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 3em;
+    color: var(--cor0);
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+}
+h2 {
+    font-family: "Droid", sans-serif;
+    font-size: 2em;
+}
+h3 {
+    font-family: "Droid", sans-serif;
+    font-size: 1.3em;
+    background-image: linear-gradient(to left, #18351900, rgb(6, 221, 42));
+    color: var(--cor7);
+    padding: 0px 10px;
+    
+}
+h4 {
+    background-color: var(--cor7);
+    color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px;
+}
+iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    margin: 20px 0px;
+}
+.inkscape {
+    background-color: var(--cor1);
+    box-shadow: 4px 2px 5px rgb(0 0 0 / 20%);
+    text-decoration: none;
+    padding-left: 3px;
+    border-radius: 3px;
+}
+.inkscape:hover {
+    background-color: rgb(0, 0, 0);
+    color: var(--cor1);
+    box-shadow: 4px 2px 5px rgb(6, 221, 42 / 20%);
+    transition: all 0.3s ease;
+}

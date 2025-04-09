@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(170, 170, 170);}
+        header {
+            background-color: beige;
+            padding: 20px;
+        }
+        footer {text-align: center;
+        background-color: black;
+            color: rgb(255, 166, 0);
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: rgb(105, 105, 105);
+            padding: 2px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav > a{
+            text-decoration: none;
+            font-weight: normal;
+            margin-top: 10px;
+            color: rgb(255, 166, 0);
+            padding: 10px;
+            border: 2px solid rgb(255, 166, 0);
+            border-radius: 5px;
+            background-color: rgb(0, 0, 0);
+            margin: 5px;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            justify-content: center;
+        }
+        nav > a:hover {
+            background-color: rgb(255, 166, 0);
+            color: black;
+            border: 2px solid black;
+        }
+        header > h1 {
+            text-align: center;
+            color: rgb(255, 166, 0);
+            font-size: 2.5em;
+        }
+        article {
+            background-color: beige;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            border: 2px solid rgb(255, 166, 0);
+            text-align: center;
+        }
+        article > h2 {
+            color: rgb(255, 166, 0);
+            font-size: 2em;
+            text-align: center;
+
+        }
+        #bola{
+            background-color: orange;
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+            border-radius: 50%;
+            box-shadow: inset 10px 10px 10px 20px rgba(218, 208, 121, 0.459);
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-25px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TITULO</h1>
+        <nav>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter/x</a>
+            <a href="#">tiktok</a>
+            <a href="#">github</a>
+            <a href="#">youtube</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>ELE MESMO</h2>
+                <p>O CARA MAIS INCRIVEL DO PLANETA TERRA ESTÁ DE VOLTA</p>
+                <aside>
+                    <p>Artigo escrito por Matheus</p>
+                </aside>
+            </article>
+        </section>
+        <section id="servicos">
+
+        </section>
+    </main>
+    <footer>
+        desenvolvido pelo matheusinho
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
