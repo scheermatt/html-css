@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFRAME</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        iframe#tela {
+            width: 90vw;
+            height: 50vh;
+            border: 2px solid #333;
+             
+        }
+    </style>
+</head>
+<body>
+    <h1>Mais um teste de iframe</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, reiciendis nisi assumenda similique, asperiores officia voluptas totam exercitationem eius magnam repellat nobis veniam fugit ratione ea voluptatibus dicta consectetur quod!</p>
+
+    <ul>
+        <li><a href="https://github.com/scheermatt/projeto-cordel" target="frame">link online</a></li>
+        <li><a href="iframe002.html" target="frame">local padrão</a></li>
+        <li><a href="extra-pages/pag001.html" target="frame">link dentro de uma pasta</a></li>
+        <li><a href="../ex023/tabela006.html" target="frame">link de uma pasta fora da padrão</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aperiam incidunt iusto consequuntur fugiat rerum in. Recusandae minus officia dolores animi itaque? Iste nesciunt qui eveniet molestias deleniti perferendis quaerat.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1> Escolha uma das OPÇÕES ACIMA</h1>" frameborder="1"> PI PI PI NAVEGADOR RUIM</iframe>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aperiam incidunt iusto consequuntur fugiat rerum in. Recusandae minus officia dolores animi itaque? Iste nesciunt qui eveniet molestias deleniti perferendis quaerat.</p>
+</body>
+</html>
