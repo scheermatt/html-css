@@ -46,7 +46,7 @@ nav > ul > li > a {
     text-align: center;
     background-color: #175915;
     color: #94F29A;
-    border-top: 2px solid black;
+    border-top: 2px solid #0B260A;
 }
 nav > ul > li > a:hover {
     background-color: #55D968;
