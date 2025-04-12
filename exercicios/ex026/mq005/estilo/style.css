@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+    font-family: 'Share Tech Mono', serif;
+    color: #94F29A;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: #0B260A;
+}
+
+header {
+    background-color: #124010;
+}
+header > h1 {
+    padding: 10px;
+    text-align: center;
+}
+span#burger {
+    background-color: #0B260A;
+    display: block;
+    color: #94F29A;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+span#burger:hover {
+    background-color: #55D968;
+    color: #124010;
+}
+nav {
+    display: none;
+}
+nav > ul {
+    list-style-type: none;
+    font-size: bold;
+}
+nav > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #175915;
+    color: #94F29A;
+    border-top: 2px solid black;
+}
+nav > ul > li > a:hover {
+    background-color: #55D968;
+    color: #124010;
+
+}
+main {
+    width: 90vw;
+    background-color: #124010;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+article > h2 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+article > p {
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 10px;
+
+}
