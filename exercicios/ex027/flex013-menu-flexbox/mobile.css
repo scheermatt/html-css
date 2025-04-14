@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+header, header > nav {
+    flex-flow: column nowrap;
+}
+header > h1 {
+    flex-basis: 70px;
+}
+header > nav > a {
+    width: 90vw;
+    padding: 10px;
+}
+main {
+    width: 90vw;
+
+    display: flex;
+    margin: auto;
+}
+main > article {
+    align-self: center;
+}
